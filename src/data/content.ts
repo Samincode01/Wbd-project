@@ -146,19 +146,19 @@ export interface EcosystemStage {
 
 export const ecosystemStages: EcosystemStage[] = [
   {
+    letter: 'Y',
+    title: 'Youth & Students',
+    description: 'The next generation of thinkers, leaders, innovators, athletes, creators, and changemakers at the heart of every initiative.',
+  },
+  {
+    letter: 'E',
+    title: 'Educational Institutions',
+    description: ' Schools, colleges, universities, and academic communities that provide knowledge, talent, research, and platforms for growth.',
+  },
+  {
     letter: 'I',
-    title: 'Initiative',
-    description: 'The idea or program spark — identifying what needs to happen and why it matters.',
-  },
-  {
-    letter: 'P',
-    title: 'People',
-    description: 'Students, volunteers, and communities engaged — the human energy that powers everything.',
-  },
-  {
-    letter: 'P',
-    title: 'Partnership',
-    description: 'Universities, NGOs, and organizations that join in — multiplying reach and resources.',
+    title: 'Industry & Corporate Partners',
+    description: 'Organizations that bring expertise, resources, mentorship, opportunities, and real-world industry connections.',
   },
   {
     letter: 'O',
@@ -167,8 +167,18 @@ export const ecosystemStages: EcosystemStage[] = [
   },
   {
     letter: 'E',
-    title: 'Expand',
-    description: 'Scaling proven initiatives to more institutions and regions — turning local success into national impact.',
+    title: 'Experts & Mentors',
+    description: 'Professionals, academics, innovators, and sector leaders who guide young people with knowledge, experience, and perspective.',
+  },
+   {
+    letter: 'C',
+    title: 'Communities & Social Organizations',
+    description: 'Local communities, NGOs, and social organizations that help turn initiatives into inclusive and meaningful social impact.',
+  },
+  {
+    letter: 'G',
+    title: 'Government & Strategic Partners',
+    description: 'Public institutions and strategic collaborators who can help successful ideas, programs, and initiatives reach a broader national scale.',
   },
 ];
 
