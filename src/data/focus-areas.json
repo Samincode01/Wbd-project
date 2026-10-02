@@ -1,0 +1,46 @@
+{
+  "focusAreas": [
+    {
+      "id": "robotics-emerging-technology",
+      "number": "01",
+      "title": "Robotics & Emerging Technology",
+      "description": "Hands-on initiatives that help young people explore robotics, automation, AI, and future technologies through competitions, challenges, and practical learning experiences.",
+      "icon": "cpu"
+    },
+    {
+      "id": "stem-education",
+      "number": "02",
+      "title": "STEM Education",
+      "description": "Programs that make science, technology, engineering, and mathematics more engaging through experiential learning, competitions, workshops, and collaborative projects.",
+      "icon": "flask"
+    },
+    {
+      "id": "leadership-youth-development",
+      "number": "03",
+      "title": "Leadership & Youth Development",
+      "description": "Platforms that help students build confidence, communication, teamwork, decision-making, and the leadership skills needed to create meaningful change.",
+      "icon": "users"
+    },
+    {
+      "id": "social-impact-community-engagement",
+      "number": "04",
+      "title": "Social Impact & Community Engagement",
+      "description": "Initiatives that connect young people with real community challenges and create opportunities to contribute through awareness, volunteering, and impact-driven action.",
+      "icon": "heart-handshake"
+    },
+    {
+      "id": "innovation-entrepreneurship",
+      "number": "05",
+      "title": "Innovation & Entrepreneurship",
+      "description": "Opportunities that encourage young people to turn ideas into solutions, develop entrepreneurial thinking, and build projects with real-world potential.",
+      "icon": "lightbulb"
+    },
+    {
+      "id": "research-knowledge",
+      "number": "06",
+      "title": "Research & Knowledge",
+      "description": "Initiatives that encourage curiosity, problem-solving, knowledge sharing, and deeper exploration of ideas that can contribute to Bangladesh's future.",
+      "icon": "book-open"
+    }
+  ]
+}
