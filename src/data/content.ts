@@ -92,14 +92,14 @@ export const events: EventItem[] = [
   {
     id: 'fibonacci-bangladesh',
     title: 'Fibonacci International Olympiad - Bangladesh National Round 2026',
-    partner: 'United International University (UIU), Dhaka',
+    partner: '4/27, West Bhashantek, Dhaka Cantonment, Dhaka,Bangladesh',
     focusArea: 'innovation',
     description: 'Bangladesh National Round brought together nearly 1,000 students to compete in Mathematics, Science, Robotics, and STEM innovation at UIU. The event featured diverse competitions, including robotics and entrepreneurship, with outstanding participants gaining opportunities for international participation in Rome, Italy.',
     outcome: 'Why Bangladesh contributed to the event’s professional coordination and execution, promoting youth innovation and STEM education.',
     guests: 'Chief Guest: Md. Nurul Haque, MP, State Minister for Expatriates’ Welfare and Overseas Employment.',
     date: '4 September 2026',
     featured: true,
-    image: 'https://images.pexels.com/photos/9242834/pexels-photo-9242834.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '../../public/IMG_3453.JPG.jpeg',
     location: 'Dhaka, Bangladesh',
   },
 ];
