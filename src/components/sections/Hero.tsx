@@ -28,6 +28,8 @@ interface RecentEvent {
   date: string;
   location: string;
   description: string;
+  about: string;
+  guests: string;
   detailRoute?: string;
 }
 
@@ -489,7 +491,12 @@ export default function Hero() {
                 <p className="mt-5 font-body text-sm leading-6 text-white/60">
                   {event.description}
                 </p>
-
+                <p className="mt-5 font-body text-sm leading-6 text-white/60">
+                  {event.about}
+                </p>
+                <p className="mt-5 font-body text-sm leading-6 text-white/90">
+                  {event.guests}
+                </p>
                 {/* Conditional CTA */}
                 {event.detailRoute && (
                   <button
