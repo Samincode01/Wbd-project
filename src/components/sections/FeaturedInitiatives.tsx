@@ -76,7 +76,7 @@ export default function FeaturedInitiatives() {
                       {event.guests}
                     </p>
                   {/* Outcome highlight */}
-                  <div className="border-l-2 border-brand-primary pl-4 mb-6 rounded-l-sm">
+                  <div className="border-l-2 border-brand-primary pl-4 mb-6 mt-2 rounded-l-sm">
                     <p className="font-display font-bold text-xs uppercase tracking-widest text-brand-primary mb-1">
                       Standout Outcome
                     </p>
