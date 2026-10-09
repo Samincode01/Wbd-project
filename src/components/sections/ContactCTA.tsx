@@ -165,10 +165,6 @@ export default function ContactCTA() {
                     className="transition-transform duration-300 group-hover/button:translate-x-0.5 group-hover/button:-translate-y-0.5"
                   />
                 </a>
-
-                <p className="font-body text-white/30 text-xs text-center mt-3">
-                  Application form opens in a new tab.
-                </p>
               </div>
             </div>
           </div>
