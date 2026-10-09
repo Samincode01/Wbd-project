@@ -1,5 +1,5 @@
 import Hero from '@/components/sections/Hero';
-import LogoMarquee from '@/components/sections/LogoMarquee';
+// import LogoMarquee from '@/components/sections/LogoMarquee';
 import HowWeWork from '@/components/sections/HowWeWork';
 import FocusAreasPreview from '@/components/sections/FocusAreasPreview';
 import FeaturedInitiatives from '@/components/sections/FeaturedInitiatives';
@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <LogoMarquee />
+      {/* <LogoMarquee /> */}
       <HowWeWork />
       <FocusAreasPreview />
       <FeaturedInitiatives />

@@ -114,27 +114,22 @@ export const processSteps: ProcessStep[] = [
   {
     number: '01',
     title: 'Identify',
-    description: 'Spotting the right opportunity, community, or need — understanding where impact is most needed and where our network can deliver.',
+    description: 'We identify important challenges, opportunities, and areas where young people can create meaningful change. Our focus begins with understanding what Bangladesh needs today and what the next generation will need tomorrow.',
   },
   {
     number: '02',
     title: 'Connect',
-    description: 'Bringing together universities, NGOs, and partners — building the coalition that makes ambitious events possible.',
+    description: 'We connect students, universities, industry leaders, experts, institutions, communities, and partners around shared goals. By bringing the right people together, we create stronger opportunities for collaboration and collective impact.',
   },
   {
     number: '03',
-    title: 'Build',
-    description: 'Designing and structuring the event or program — from concept to logistics, curriculum, and execution plan.',
+    title: 'Create',
+    description: 'We transform ideas into real initiatives — from competitions and educational programs to innovation platforms, campaigns, events, and community projects. Every initiative is designed to encourage participation, learning, and action.',
   },
   {
     number: '04',
-    title: 'Collaborate',
-    description: 'Executing together with all stakeholders — ensuring every partner plays their role and every voice is heard.',
-  },
-  {
-    number: '05',
-    title: 'Deliver',
-    description: 'Running the event and creating real impact — measuring outcomes, celebrating success, and learning for next time.',
+    title: 'Impact',
+    description: 'Our work does not end with an event or program. We aim to create measurable, sustainable impact by empowering participants, strengthening communities, and building opportunities that can continue to grow over time.',
   },
 ];
 

@@ -20,7 +20,7 @@ export default function HowWeWork() {
             How We <span className="text-brand-primary">Work</span>
           </h2>
           <p className="font-body text-ink-500 text-lg max-w-2xl mx-auto">
-            A proven five-step approach that turns ideas into real-world impact.
+            We turn ideas into meaningful initiatives by identifying opportunities, bringing the right people together, and building platforms that create lasting impact.
           </p>
         </div>
 
