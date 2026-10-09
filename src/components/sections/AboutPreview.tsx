@@ -25,37 +25,42 @@ import { useRouter } from '@/router/Router';
 
 const activities = [
   {
-    title: 'Seminars',
+    title: 'Seminars and workshops',
     icon: GraduationCap,
   },
   {
-    title: 'Workshops',
-    icon: Wrench,
-  },
-  {
-    title: 'Competitions',
+    title: 'Competitions and challenges',
     icon: Trophy,
   },
   {
-    title: 'Robotics & Technology',
+    title: 'Robotics and technology programs',
     icon: BrainCircuit,
   },
   {
-    title: 'Sports Activities',
+    title: 'Educational and skill-development initiatives',
+    icon: Wrench,
+  },
+  {
+    title: 'Sports and games',
     icon: Trophy,
   },
   {
-    title: 'Cultural Programs',
+    title: 'Cultural programs and events',
     icon: Palette,
   },
   {
-    title: 'Climate & Social Initiatives',
+    title: 'Climate and social-awareness initiatives',
     icon: Globe2,
   },
   {
-    title: 'Economic & Entrepreneurship',
+    title: 'Economic and entrepreneurship-focused programs',
     icon: ChartNoAxesCombined,
   },
+  {
+    title: 'Collaborative programs with institutions and organizations',
+    icon: Building2,
+  },
+  
 ];
 
 const summaryCards = [
@@ -148,10 +153,11 @@ export default function AboutPreview() {
                 </p>
 
                 <p className="font-body text-ink-400 text-base leading-relaxed">
-                  We work with universities, NGOs, institutions, and
-                  communities to design and deliver events, programs,
-                  competitions, and initiatives across the areas that
-                  matter to Bangladesh's future.
+                  Our goal is to create meaningful platforms where young people can learn, participate, compete, collaborate, showcase their abilities, and connect with wider opportunities.
+                </p>
+
+                <p className="font-body text-ink-400 text-base leading-relaxed">
+                  Through seminars, workshops, competitions, sports activities, cultural programs, innovation-focused events, and other initiatives, we aim to bring young people, institutions, professionals, communities, and partners together around areas that can contribute to the development of Bangladesh.
                 </p>
               </div>
 
@@ -249,19 +255,15 @@ export default function AboutPreview() {
             {/* Content */}
             <div className="space-y-5 max-w-3xl">
               <p className="font-body text-ink-500 text-lg leading-relaxed">
-                We have a strong interest in invention, innovation,
-                robotics, artificial intelligence, science, engineering,
-                and emerging technologies — areas where young people can
-                move from being consumers of technology to creators of
-                solutions.
+                Invention and Innovation is one of the key areas of our work.
               </p>
 
               <p className="font-body text-ink-400 text-base leading-relaxed">
-                Through competitions, workshops, technology programs,
-                collaborative projects, and hands-on experiences, we
-                create opportunities for students to experiment, solve
-                problems, build confidence, and explore the possibilities
-                of what they can create.
+                We want to create more opportunities for young people working in robotics, artificial intelligence, technology, science, engineering, and other emerging fields. Through competitions, workshops, exhibitions, learning programs, and collaborative initiatives, we aim to provide them with platforms to develop and showcase their ideas.
+
+              </p>
+              <p className="font-body text-ink-400 text-base leading-relaxed">
+               As Why Bangladesh grows, our long-term ambition is to help promising innovators and technology-focused teams access greater opportunities — including mentorship, industry connections, strategic partnerships, and potential funding support through collaboration with private organizations, institutions, and government stakeholders.
               </p>
 
               <div className="flex flex-wrap gap-2 pt-2">
@@ -313,7 +315,7 @@ export default function AboutPreview() {
               activitiesVisible ? 'visible' : ''
             }`}
           >
-            <div className="max-w-2xl mb-10">
+            <div className="max-w-2xl mb-4">
               <div className="flex items-center gap-3 mb-4">
                 <span className="h-px w-10 bg-brand-primary" />
 
@@ -331,12 +333,15 @@ export default function AboutPreview() {
               </h3>
 
               <p className="font-body text-ink-500 text-base md:text-lg leading-relaxed mt-4">
-                Our work takes different forms, but the goal remains
-                consistent: create platforms that help people participate,
-                learn, connect, and contribute.
+                Our current focus is on creating and organizing initiatives across our six core areas.
               </p>
-            </div>
 
+             
+            </div>
+ <p className="font-body text-ink-500 text-base md:text-lg leading-relaxed mb-2">
+      
+                These may include:
+              </p>
             {/* Activity cards */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
               {activities.map((activity, index) => {
@@ -577,9 +582,7 @@ export default function AboutPreview() {
                   </div>
 
                   <p className="font-display font-bold text-2xl md:text-3xl text-white leading-tight">
-                    Create accessible platforms where young people can
-                    learn, innovate, compete, collaborate, and turn
-                    potential into action.
+                    To create accessible and meaningful platforms where young people can learn, innovate, compete, collaborate, and turn their potential into action across areas that matter to Bangladesh’s future.
                   </p>
                 </div>
 
@@ -622,9 +625,7 @@ export default function AboutPreview() {
                   </div>
 
                   <p className="font-display font-bold text-2xl md:text-3xl text-brand-black leading-tight">
-                    Build an ecosystem where talented and ambitious young
-                    people can access the knowledge, connections, platforms,
-                    and opportunities they need to grow.
+                    To empower young people with the knowledge, connections, and opportunities to grow, innovate, and turn promising ideas into sustainable impact for a progressive Bangladesh.
                   </p>
                 </div>
 
