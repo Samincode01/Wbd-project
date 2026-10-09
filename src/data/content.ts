@@ -99,7 +99,7 @@ export const events: EventItem[] = [
     guests: 'Chief Guest: Md. Nurul Haque, MP, State Minister for Expatriates’ Welfare and Overseas Employment.',
     date: '4 September 2026',
     featured: true,
-    image: '../../public/IMG_3453.JPG.jpeg',
+    image: '/IMG_3453.JPG.jpeg',
     location: 'Dhaka, Bangladesh',
   },
 ];
