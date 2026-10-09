@@ -81,7 +81,7 @@ export interface EventItem {
   focusArea: string;
   description: string;
   outcome: string;
-  outcomeLabel: string;
+  guests: string;
   date: string;
   featured: boolean;
   image: string;
@@ -91,13 +91,13 @@ export interface EventItem {
 export const events: EventItem[] = [
   {
     id: 'fibonacci-bangladesh',
-    title: 'Fibonacci Bangladesh — Robotics & STEM Competition',
-    partner: 'International University of Bangladesh (IUB)',
+    title: 'Fibonacci International Olympiad - Bangladesh National Round 2026',
+    partner: 'United International University (UIU), Dhaka',
     focusArea: 'innovation',
-    description: 'A flagship robotics and STEM competition bringing together students from across the country to design, build, and compete. Participants tackled engineering challenges, showcased innovative prototypes, and competed for a chance to represent Bangladesh internationally.',
-    outcome: 'A participating student advanced to compete in Italy, and the organizing team is traveling to Italy for the next phase.',
-    outcomeLabel: 'Student advanced to compete in Italy',
-    date: '2024',
+    description: 'Bangladesh National Round brought together nearly 1,000 students to compete in Mathematics, Science, Robotics, and STEM innovation at UIU. The event featured diverse competitions, including robotics and entrepreneurship, with outstanding participants gaining opportunities for international participation in Rome, Italy.',
+    outcome: 'Why Bangladesh contributed to the event’s professional coordination and execution, promoting youth innovation and STEM education.',
+    guests: 'Chief Guest: Md. Nurul Haque, MP, State Minister for Expatriates’ Welfare and Overseas Employment.',
+    date: '4 September 2026',
     featured: true,
     image: 'https://images.pexels.com/photos/9242834/pexels-photo-9242834.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     location: 'Dhaka, Bangladesh',

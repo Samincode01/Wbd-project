@@ -72,7 +72,9 @@ export default function FeaturedInitiatives() {
                   <p className="font-body text-ink-500 text-base leading-relaxed mb-5">
                     {event.description}
                   </p>
-
+                <p className="font-body text-ink-700 text-base">
+                      {event.guests}
+                    </p>
                   {/* Outcome highlight */}
                   <div className="border-l-2 border-brand-primary pl-4 mb-6 rounded-l-sm">
                     <p className="font-display font-bold text-xs uppercase tracking-widest text-brand-primary mb-1">
@@ -81,6 +83,7 @@ export default function FeaturedInitiatives() {
                     <p className="font-body text-ink-700 text-base">
                       {event.outcome}
                     </p>
+                    
                   </div>
 
                   <div className="flex items-center justify-between">

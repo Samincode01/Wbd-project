@@ -141,8 +141,9 @@ export default function EventsPage() {
                 <span className="flex items-center gap-1.5"><Calendar size={14} /> {selectedEventData.date}</span>
                 <span className="flex items-center gap-1.5"><MapPin size={14} /> {selectedEventData.location}</span>
               </div>
-              <h2 className="heading-display text-brand-black text-3xl mb-4">{selectedEventData.title}</h2>
+              <h2 className="heading-display text-brand-black text-3xl mb-2">{selectedEventData.title}</h2>
               <p className="font-body text-ink-500 text-base leading-relaxed mb-6">{selectedEventData.description}</p>
+              <p className="font-body text-ink-700 font-bold text-bo mb-4">{selectedEventData.guests}</p>
               <div className="border-l-2 border-brand-primary pl-4 mb-6 rounded-l-sm">
                 <p className="font-display font-bold text-xs uppercase tracking-widest text-brand-primary mb-1">Standout Outcome</p>
                 <p className="font-body text-ink-700 text-base">{selectedEventData.outcome}</p>
