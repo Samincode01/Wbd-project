@@ -218,90 +218,96 @@ export default function AboutPreview() {
       {/* =========================================================
           02 — INNOVATION FOCUS
       ========================================================= */}
-      <section className="bg-ink-50 border-y border-ink-100">
-        <div className="container-max py-16 md:py-20">
-          <div
-            ref={innovationRef}
-            className={`
-              reveal
-              ${innovationVisible ? 'visible' : ''}
-              grid
-              grid-cols-1
-              lg:grid-cols-[0.8fr_1.2fr]
-              gap-10
-              lg:gap-20
-              items-start
-            `}
-          >
-            {/* Label */}
-            <div>
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-brand-primary/10 text-brand-primary mb-5">
-                <Lightbulb size={28} strokeWidth={1.7} />
-              </div>
-
-              <p className="font-display font-semibold text-xs uppercase tracking-[0.2em] text-brand-primary mb-3">
-                Our Strongest Focus
-              </p>
-
-              <h3 className="font-display font-bold text-3xl md:text-4xl text-brand-black leading-tight">
-                A Strong Focus on
-                <br />
-                <span className="text-brand-primary">
-                  Invention & Innovation
-                </span>
-              </h3>
-            </div>
-
-            {/* Content */}
-            <div className="space-y-5 max-w-3xl">
-              <p className="font-body text-ink-500 text-lg leading-relaxed">
-                Invention and Innovation is one of the key areas of our work.
-              </p>
-
-              <p className="font-body text-ink-400 text-base leading-relaxed">
-                We want to create more opportunities for young people working in robotics, artificial intelligence, technology, science, engineering, and other emerging fields. Through competitions, workshops, exhibitions, learning programs, and collaborative initiatives, we aim to provide them with platforms to develop and showcase their ideas.
-
-              </p>
-              <p className="font-body text-ink-400 text-base leading-relaxed">
-               As Why Bangladesh grows, our long-term ambition is to help promising innovators and technology-focused teams access greater opportunities — including mentorship, industry connections, strategic partnerships, and potential funding support through collaboration with private organizations, institutions, and government stakeholders.
-              </p>
-
-              <div className="flex flex-wrap gap-2 pt-2">
-                {[
-                  'Robotics',
-                  'Artificial Intelligence',
-                  'Technology',
-                  'Science',
-                  'Engineering',
-                  'Innovation',
-                ].map((item) => (
-                  <span
-                    key={item}
-                    className="
-                      inline-flex
-                      items-center
-                      gap-2
-                      rounded-full
-                      border
-                      border-brand-primary/20
-                      bg-white
-                      px-4
-                      py-2
-                      font-display
-                      text-xs
-                      font-semibold
-                      text-brand-black
-                    "
-                  >
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand-primary" />
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
+      
+<section className="bg-ink-50 border-y border-ink-100">
+  <div className="container-max px-5 sm:px-6 lg:px-0 py-12 sm:py-14 md:py-16 lg:py-20">
+    <div
+      ref={innovationRef}
+      className={`
+        reveal
+        ${innovationVisible ? 'visible' : ''}
+        grid
+        min-w-0
+        grid-cols-1
+        lg:grid-cols-[0.8fr_1.2fr]
+        gap-8
+        sm:gap-10
+        lg:gap-20
+        items-start
+      `}
+    >
+      {/* Label */}
+      <div className="min-w-0">
+        <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-brand-primary/10 text-brand-primary mb-5">
+          <Lightbulb size={28} strokeWidth={1.7} />
         </div>
-      </section>
+
+        <p className="font-display font-semibold text-xs uppercase tracking-[0.2em] text-brand-primary mb-3">
+          Our Strongest Focus
+        </p>
+
+        <h3 className="font-display font-bold text-3xl sm:text-3xl md:text-4xl text-brand-black leading-tight break-words">
+          A Strong Focus on
+          <br />
+          <span className="text-brand-primary">
+            Invention &amp; Innovation
+          </span>
+        </h3>
+      </div>
+
+      {/* Content */}
+      <div className="min-w-0 w-full max-w-3xl space-y-5">
+        <p className="font-body text-ink-500 text-base sm:text-lg leading-relaxed">
+          Invention and Innovation is one of the key areas of our work.
+        </p>
+
+        <p className="font-body text-ink-400 text-base leading-relaxed">
+          We want to create more opportunities for young people working in robotics, artificial intelligence, technology, science, engineering, and other emerging fields. Through competitions, workshops, exhibitions, learning programs, and collaborative initiatives, we aim to provide them with platforms to develop and showcase their ideas.
+        </p>
+
+        <p className="font-body text-ink-400 text-base leading-relaxed">
+          As Why Bangladesh grows, our long-term ambition is to help promising innovators and technology-focused teams access greater opportunities — including mentorship, industry connections, strategic partnerships, and potential funding support through collaboration with private organizations, institutions, and government stakeholders.
+        </p>
+
+        <div className="flex flex-wrap gap-2 pt-2">
+          {[
+            'Robotics',
+            'Artificial Intelligence',
+            'Technology',
+            'Science',
+            'Engineering',
+            'Innovation',
+          ].map((item) => (
+            <span
+              key={item}
+              className="
+                inline-flex
+                max-w-full
+                items-center
+                gap-2
+                rounded-full
+                border
+                border-brand-primary/20
+                bg-white
+                px-3
+                sm:px-4
+                py-2
+                font-display
+                text-xs
+                font-semibold
+                text-brand-black
+              "
+            >
+              <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-brand-primary" />
+              <span className="break-words">{item}</span>
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
       {/* =========================================================
