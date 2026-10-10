@@ -200,7 +200,7 @@ export default function Footer() {
                   </span>
 
                   <span className="font-body text-sm leading-6">
-                    Dhaka, Bangladesh
+                    4/27, West Bhashantek, Dhaka Cantonment, Dhaka,Bangladesh
                   </span>
                 </div>
               </li>
@@ -243,13 +243,26 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-10 pt-7 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-3">
-          <p className="text-white/35 font-body text-xs text-center md:text-left">
-            © {new Date().getFullYear()} Why Bangladesh. All rights reserved.
-          </p>
+          
+<p className="text-white/35 font-body text-xs text-center md:text-left">
+  © {new Date().getFullYear()} Why Bangladesh. All rights reserved.
+  {' · '}
+  Developed by{' '}
+  <a
+    href="https://samin-portfolio-one.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-inherit hover:text-inherit transition-none"
+  >
+    Samin
+  </a>
+</p>
+
 
           <p className="text-white/35 font-body text-xs text-center md:text-right">
             Building events that move the nation forward.
           </p>
+          
         </div>
       </div>
     </footer>

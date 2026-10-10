@@ -92,7 +92,7 @@ export const events: EventItem[] = [
   {
     id: 'fibonacci-bangladesh',
     title: 'Fibonacci International Olympiad - Bangladesh National Round 2026',
-    partner: '4/27, West Bhashantek, Dhaka Cantonment, Dhaka,Bangladesh',
+    partner: 'United International University (UIU)',
     focusArea: 'innovation',
     description: 'Bangladesh National Round brought together nearly 1,000 students to compete in Mathematics, Science, Robotics, and STEM innovation at UIU. The event featured diverse competitions, including robotics and entrepreneurship, with outstanding participants gaining opportunities for international participation in Rome, Italy.',
     outcome: 'Why Bangladesh contributed to the event’s professional coordination and execution, promoting youth innovation and STEM education.',
@@ -100,7 +100,7 @@ export const events: EventItem[] = [
     date: '4 September 2026',
     featured: true,
     image: '/IMG_3453.JPG.jpeg',
-    location: 'Dhaka, Bangladesh',
+    location: 'United International University (UIU)',
   },
 ];
 
